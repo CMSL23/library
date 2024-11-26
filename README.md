@@ -57,17 +57,17 @@ The **Library Management System API** is a RESTful service designed to manage li
 | `/user/update`        | `PUT`      | Update user details.                     |
 | `/user/delete`       | `DELETE`   | Delete a user.                           |
 |**Author Endpoint**|
-| `/author/add`         | `POST`     | Add a new author.                        |
+| `/author/register`         | `POST`     | Add a new author.                        |
 | `/author/read`       | `GET`      | Retrieve all authors.                    |
 | `/author/update`      | `PUT`      | Update author details.                   |
 | `/author/delete`      | `DELETE`   | Delete an author.                        |
 |**Book Endpoint**|
-| `/book/add`           | `POST`     | Add a new book.                          |
+| `/book/register`           | `POST`     | Add a new book.                          |
 | `/book/read`         | `GET`      | Retrieve all books.                      |
 | `/book/update`        | `PUT`      | Update book details.                     |
 | `/book/delete`        | `DELETE`   | Delete a book.                           |
 |**Book and Author Endpoint**|
-| `/books_authors/add`    | `POST`     | Associate a book with an author.         |
+| `/books_authors/register`    | `POST`     | Associate a book with an author.         |
 | `/books_authors/read`  | `GET`      | Retrieve all book-author relationships.  |
 | `/books_authors/update` | `PUT`      | Update book-author relationship.         |
 | `/books_authors/delete`| `DELETE`   | Delete a book-author relationship.       |
